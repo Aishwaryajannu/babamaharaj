@@ -23,7 +23,7 @@ const DigitalID = () => {
     <div className="bg-#FEFEFE min-h-screen w-full overflow-hidden">
       {/* Navbar */}
       <header className="w-full bg-white shadow-md p-4 flex items-center justify-between fixed top-0 left-0 z-50">
-        <div className="flex justify-center w-full">
+        <div className="flex justify-left w-full">
           <img src="/logo.png" alt="Logo" className="w-25 h-12" />
         </div>
         <div className="flex md:flex">
@@ -43,7 +43,7 @@ const DigitalID = () => {
         <div className="bg-white rounded-[40px] shadow-[0_0_20px_rgba(0,0,0,0.1)] flex flex-col md:flex-row items-center text-center md:text-left p-6 md:p-10 relative w-full max-w-[820px] h-[500px] md:h-[360px]">
           {/* Image section */}
           <div className="absolute -top-20 left-1/2 transform -translate-x-1/2 z-10 md:static md:transform-none md:top-auto md:left-auto md:translate-x-0 flex justify-center items-center w-full md:w-1/2 -mt-6 md:mt-0 mb-2 md:mb-0">
-            <div className="flex rounded-full border-[17px] md:border-[30px] border-blue-400">
+            <div className="flex rounded-full border-[17px] md:border-[30px] border-[#1A62A799]">
               <img
                 src={user.image || "/default.png"}
                 alt={user.full_name}
