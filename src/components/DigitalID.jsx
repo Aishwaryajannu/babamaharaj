@@ -12,7 +12,7 @@ const DigitalID = () => {
 
   useEffect(() => {
     axios
-      .get(`http://127.0.0.1:8000/api/profiles/${username}/`)
+      .get(`https://dadamaharaj.onrender.com/api/profiles/${username}/`)
       .then((res) => setUser(res.data))
       .catch((err) => console.error("Error fetching profile:", err));
   }, [username]);
